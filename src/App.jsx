@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
@@ -13,7 +14,7 @@ import StarsCanvas from "./components/canvas/Stars";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/myportfolio">
       <div className="relative z-0 bg-primary">
         {/* Hero Section */}
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
