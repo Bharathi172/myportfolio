@@ -26,6 +26,7 @@ import {
   tripguide,
   threejs,
   healhub,
+  roomio,
   fitometer,
   haven,
   sql,
@@ -43,7 +44,7 @@ export const navLinks = [
     title: "Education",
   },
   {
-    id: "work",
+    id: "projects",
     title: "Projects",
   },
   {
@@ -172,6 +173,55 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Roomio",
+    description: "Roomio is a seamless room booking application I developed using React, Redux, MongoDB, Node.js, and Express.js. Designed with a REST architecture, the platform ensures a mobile-friendly and responsive user experience, significantly improving booking efficiency. The real-time booking system allows users to search, filter, and reserve rooms with ease, leading to a smooth user experience. By integrating WebSockets, I enabled live availability updates for users. Furthermore, the inclusion of secure JWT-based authentication enhances user and admin security. The application also features an intuitive admin dashboard for effective room and booking management, improving overall operational efficiency.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mern",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "fullstack",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "webdevelopment",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ecommerce",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+    ],
+    image: roomio,
+    source_code_link: "https://github.com/Bharathi172/roomio",
+    icon_type: "github",
+  },
   {
     name: "HealHub",
     description:

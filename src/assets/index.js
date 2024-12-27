@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import northeasternuniversity from './company/northeasternuniversity.png'
 import srmseal from './company/srmseal.png'
-
+import roomio from './roomio.png'
 import resort from "./resort.png"
 import sql from './sql.png'
 import haven from './haven.png'
@@ -69,6 +69,7 @@ export {
   jobit,
   tripguide,
   healhub,
+  roomio,
   fitometer,
   haven,
   sql,
